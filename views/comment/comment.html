@@ -1,0 +1,37 @@
+<ion-view view-title="豆瓣最受欢迎的影评">
+    <ion-content class="comment">
+        <ion-refresher pulling-text="下拉刷新中……" pulling-icon="icon ion-ion-load-a energized" on-refresh="refresh()" class="energized"></ion-refresher>
+        <div class="commentSort">
+            <a href="javascript:;" class="ac">最受欢迎的影评</a>
+            <a href="javascript:;">新片影评</a>
+        </div>
+        <ul class="list">
+            <li ng-repeat="commentFilm in commentFilms" class="item" style="padding:5px;">
+                <div class="commentFilmPic"><a href="#"><img ng-src="{{commentFilm.commentFilmPic}}"></a></div>
+                <div class="commentTitle"><a href="#">{{commentFilm.title}}</a></div>
+                <div class="commentMuch">
+                    <div class="peopleName"><a href="#"><span>{{commentFilm.name}}</span></a>评论:<a href="#"><span>《{{commentFilm.film}}》</span></a></div>
+                    <div class="commentPic"><img ng-src="{{commentFilm.starPic}}"></div>
+                    <!--<div class="commentCheck">查看详情</div>-->
+                    <div class="commentCont">
+                        <p>
+                            <span>{{commentFilm.text}}</span>
+                            <a href=javascript:; style="color:#69c" ng-click="show()">[详情]</a>
+                        </p>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="commentThink"><p>你认为这篇评论：</p></div>
+                <div class="commentClick">
+                    <a href="javascript:;" ng-click="addOne(index)" style="padding:0px 5px;background:#dca7a7;border-radius:3px;border:1px solid gray;">有用<span>{{commentFilm.yes}}</span></a>
+                    <a href="javascript:;" ng-click="addTwo(index)" style="padding:0px 5px;background:#afd9ee;border-radius:3px;border:1px solid gray;">没用<span>{{commentFilm.no}}</span></a>
+                </div>
+                <div class="clear"></div>
+                <!--选项按钮-----------必须写在<ion-list><ion-item></ion-item></ion-list>里面---------------------------->
+                <!--<ion-option-button class="button-royal" ng-click="edit(product)">编辑</ion-option-button>-->
+                <!--<ion-option-button class="button-energized" ng-click="share(product)">分享</ion-option-button>-->
+            </li>
+        </ul>
+        <ion-infinite-scroll on-infinite="loadMore()"></ion-infinite-scroll>
+    </ion-content>
+</ion-view>

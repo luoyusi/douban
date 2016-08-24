@@ -1,0 +1,34 @@
+<ion-view title="豆瓣电影排行榜">
+    <ion-content class="rankList">
+        <ion-refresher pulling-text="下拉刷新中……" pulling-icon="icon ion-ion-load-a energized" on-refresh="refresh()" class="energized"></ion-refresher>
+        <div class="rankListTitle">
+            豆瓣新片榜……
+        </div>
+        <ion-list class="list">
+            <ion-item class="item item-thumbnail-left" href="#" ng-repeat="newFilm in newFilms" style="font-size:12px;">
+                <img ng-src="{{newFilm.filmPic}}">
+                <h3><a href="#">{{newFilm.name}}</a></h3>
+                <p>{{newFilm.country}}</p>
+                <p>{{newFilm.actor}}</p>
+                <p class="rankListStar"><img ng-src="{{newFilm.starPic}}"></p>
+                <p class="rankListMark">{{newFilm.mark}}</p>
+                <p class="rankListNumber">{{newFilm.number}}</p>
+                <!--选项按钮--->
+                <ion-option-button class="button-royal" ng-click="edit(product)">编辑</ion-option-button>
+                <ion-option-button class="button-energized" ng-click="share(product)">分享</ion-option-button>
+            </ion-item>
+            <!--<a class="item item-thumbnail-left" href="#" ng-repeat="newFilm in newFilms">-->
+                <!--<img ng-src="{{newFilm.filmPic}}">-->
+                <!--<h3>{{newFilm.name}}</h3>-->
+                <!--<p>{{newFilm.country}}</p>-->
+                <!--<p>{{newFilm.actor}}</p>-->
+                <!--<p class="rankListStar"><img ng-src="{{newFilm.starPic}}"></p>-->
+                <!--<p class="rankListMark">{{newFilm.mark}}</p>-->
+                <!--<p class="rankListNumber">{{newFilm.number}}</p>-->
+            <!--</a>-->
+            <ion-infinite-scroll on-infinite="loadMore()"></ion-infinite-scroll>
+        </ion-list>
+    </ion-content>
+</ion-view>
+
+

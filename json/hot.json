@@ -1,0 +1,68 @@
+{
+  "classic":[
+    {"hotFilmPic":"images/p2173398296.jpg","name":"罗马假日(1953)","country":"制片: 美国","star":"images/star4.5.jpg","mark":"8.9","number":"329894人评价"},
+    {"hotFilmPic":"images/p492406163.jpg","name":"辛德勒的名单(1993) ","country":"制片: 美国 / 英国","star":"images/star5.jpg","mark":"9.4","number":"316416人评价"},
+    {"hotFilmPic":"images/p700729909.jpg","name":"乱世佳人(1939) ","country":"制片: 美国","star":"images/star4.5.jpg","mark":"9.2","number":"231842人评价"},
+    {"hotFilmPic":"images/p510861873.jpg","name":"美丽人生(1997) ","country":"制片: 意大利","star":"images/star5.jpg","mark":"9.5","number":"340072人评价"},
+    {"hotFilmPic":"images/p480747492.jpg","name":"肖申克的救赎(1994) ","country":"制片: 美国","star":"images/star5.jpg","mark":"9.6","number":"713490人评价"},
+    {"hotFilmPic":"images/p453791074.jpg","name":"英国病人(1994)","country":"制片: 美国 / 英国","star":"images/star4.5.jpg","mark":"8.4","number":"154110人评价"},
+    {"hotFilmPic":"images/p457760035.jpg","name":"泰坦尼克号(1997) ","country":"制片: 美国","star":"images/star4.5.jpg","mark":"9.1","number":"549977人评价"},
+    {"hotFilmPic":"images/p1612355875.jpg","name":"雨中曲(1952) ","country":"制片: 美国","star":"images/star4.5.jpg","mark":"8.9","number":"76200人评价"},
+    {"hotFilmPic":"images/p511118051.jpg","name":"这个杀手不太冷(1994) ","country":"制片: 法国","star":"images/star5.jpg","mark":"9.4","number":"684492人评价"}
+  ],
+  "love":[
+    {"loveFilmPic":"images/p452005185.jpg","name":"傲慢与偏见(2005)","country":"制片: 法国/ 英国/ 美国","star":"images/star4.5.jpg","mark":"8.4","number":"249418人评价"},
+    {"loveFilmPic":"images/p570006170.jpg","name":"闰年(2010)","country":"制片: 美国 / 爱尔兰","star":"images/star4.jpg","mark":"7.8","number":"61202人评价"},
+    {"loveFilmPic":"images/p1103205323.jpg","name":"一天(2011)","country":"制片: 美国/英国","star":"images/star4.jpg","mark":"7.8","number":"249550人评价"},
+    {"loveFilmPic":"images/p2317441943.jpg","name":"遇见你之前(2016)","country":"制片: 英国","star":"images/star4.jpg","mark":"7.5","number":"40093人评价"},
+    {"loveFilmPic":"images/p2318179148.jpg","name":"他是龙(2015)","country":"制片: 俄罗斯","star":"images/star4.jpg","mark":"7.5","number":"58270人评价"},
+    {"loveFilmPic":"images/p483604864.jpg","name":"恋恋笔记本(2004)","country":"制片: 美国 / 英国","star":"images/star4.5.jpg","mark":"8.5","number":"229078人评价"},
+    {"loveFilmPic":"images/p475600770.jpg","name":"真爱至上(2003)","country":"制片: 英国","star":"images/star4.5.jpg","mark":"8.5","number":"265935人评价"},
+    {"loveFilmPic":"images/p663036666.jpg","name":"怦然心动(2010)","country":"制片: 美国","star":"images/star4.5.jpg","mark":"8.9","number":"444644人评价"},
+    {"loveFilmPic":"images/p1505312273.jpg","name":"初恋这件小事(2010)","country":"制片: 泰国","star":"images/star4.5.jpg","mark":"8.3","number":"387958人评价"}
+  ],
+  "art":[
+    {"artFilmPic":"images/p803896904.jpg","name":"天使爱美丽(2001)","country":"制片: 法国 / 德国","star":"images/star4.5.jpg","mark":"8.7","number":"442448人评价"},
+    {"artFilmPic":"images/p2208893760.jpg","name":"试验(2014)","country":"制片: 俄罗斯","star":"images/star4.jpg","mark":"8.2","number":"2630人评价"},
+    {"artFilmPic":"images/p1305562621.jpg","name":"超脱(2011)","country":"制片: 美国/英国","star":"images/star4.5.jpg","mark":"8.7","number":"139731人评价"},
+    {"artFilmPic":"images/p1546987967.jpg","name":"狩猎(2012)","country":"制片: 丹麦/ 瑞典/ 比利时","star":"images/star4.5.jpg","mark":"9.0","number":"88516人评价"},
+    {"artFilmPic":"images/p480529143.jpg","name":"香水(2006)","country":"制片:德国/ 法国/ 西班牙/","star":"images/star4.5.jpg","mark":"8.4","number":"233781人评价"},
+    {"artFilmPic":"images/p455472580.jpg","name":"两小无猜(2003)","country":"制片:法国 / 比利时","star":"images/star4.5.jpg","mark":"8.2","number":"280120人评价"},
+    {"artFilmPic":"images/p2365143411.jpg","name":"完美陌生人(2016)","country":"制片: 意大利","star":"images/star4.5.jpg","mark":"8.6","number":"41816人评价"},
+    {"artFilmPic":"images/p455251312.jpg","name":"和莎莫的500天(2009)","country":"制片: 美国","star":"images/star4.jpg","mark":"8.0","number":"274370人评价"},
+    {"artFilmPic":"images/p789131855.jpg","name":"更好的世界(2010) ","country":"制片: 丹麦 / 瑞典","star":"images/star4.5.jpg","mark":"8.3","number":"18023人评价"}
+  ],
+  "coldDoor":[
+    {"filmPic":"images/p2187896711.jpg","name":"彗星来的那一夜(2013)","country":"制片: 美国 / 英国","star":"images/star4.5.jpg","mark":"8.3","number":"119510人评价"},
+    {"filmPic":"images/p467734271.jpg","name":"布达佩斯之恋(1999)","country":"制片: 德国 / 匈牙利","star":"images/star4.jpg","mark":"8.6","number":"55543人评价"},
+    {"filmPic":"images/p2189771086.jpg","name":"生人勿进(2008)","country":"制片: 瑞典","star":"images/star4.jpg","mark":"7.7","number":"29574人评价"},
+    {"filmPic":"images/p1581587840.jpg","name":"登堂入室(2012)","country":"制片:法国","star":"images/star4.5.jpg","mark":"8.5","number":"57575人评价"},
+    {"filmPic":"images/p697993739.jpg","name":"狗镇(2003)","country":"制片:丹麦/ 瑞典/ 挪威/ 芬兰","star":"images/star4.5.jpg","mark":"8.5","number":"55559人评价"},
+    {"filmPic":"images/p2119675128.jpg","name":"一一 (2000)","country":"制片:台湾 / 日本","star":"images/star4.5.jpg","mark":"8.9","number":"126997人评价"},
+    {"filmPic":"images/p2173580603.jpg","name":" 小鞋子(1997) ","country":"制片: 伊朗","star":"images/star4.5.jpg","mark":"9.1","number":"111070人评价"},
+    {"filmPic":"images/p2242875394.jpg","name":"索尔之子(2015)","country":"制片: 匈牙利","star":"images/star4.jpg","mark":"7.3","number":"7128人评价"},
+    {"filmPic":"images/p2273266824.jpg","name":"地雷区(2015)","country":"制片: 丹麦 / 德国","star":"images/star4.5.jpg","mark":"8.5","number":"13971人评价"}
+  ],
+  "science":[
+    {"filmPic":"images/p2206088801.jpg","name":"星际穿越(2014)","country":"制片:美国 / 英国 / 加拿大","star":"images/star4.5.jpg","mark":"9.1","number":"396755人评价"},
+    {"filmPic":"images/p640093961.jpg","name":"盗梦空间(2010)","country":"制片: 德国 / 匈牙利","star":"images/star5.jpg","mark":"9.2","number":"658776人评价"},
+    {"filmPic":"images/p793653648.jpg","name":"蝴蝶效应(2004)","country":"制片: 美国 / 加拿大","star":"images/star4.5.jpg","mark":"8.7","number":"823382人评价"},
+    {"filmPic":"images/p792257137.jpg","name":"人工智能(2001)","country":"制片:美国","star":"images/star4.5.jpg","mark":"8.6","number":"161854人评价"},
+    {"filmPic":"images/p2159078612.jpg","name":"地心引力(2013)","country":"制片:美国 / 英国","star":"images/star4.jpg","mark":"7.8","number":"220582人评价"},
+    {"filmPic":"images/p2201909284.jpg","name":"超体(2014)","country":"制片:法国","star":"images/star3.5.jpg","mark":"7.0","number":"208258人评价"},
+    {"filmPic":"images/p449399746.jpg","name":"月球(2009)","country":"制片: 英国","star":"images/star4.5.jpg","mark":"8.5","number":"117247人评价"},
+    {"filmPic":"images/p1245673794.jpg","name":"后天(2004)","country":"制片: 美国","star":"images/star4.jpg","mark":"8.0","number":"181423人评价"},
+    {"filmPic":"images/p505226846.jpg","name":" 2012(2009)","country":"制片:美国 / 加拿大","star":"images/star4.jpg","mark":"7.7","number":"258602人评价"}
+  ],
+  "cartoon":[
+    {"filmPic":"images/p2361744534.jpg","name":" 大鱼海棠 (2016)","country":"制片:中国大陆","star":"images/star3.5.jpg","mark":"6.6","number":"129761人评价"},
+    {"filmPic":"images/p450042258.jpg","name":"驯龙高手(2010)","country":"制片:美国","star":"images/star4.5.jpg","mark":"8.7","number":"241827人评价"},
+    {"filmPic":"images/p449665982.jpg","name":"机器人总动员(2008)","country":"制片:美国","star":"images/star5.jpg","mark":"9.3","number":"433114人评价"},
+    {"filmPic":"images/p707509468.jpg","name":"魔发奇缘(2010)","country":"制片: 美国","star":"images/star4.jpg","mark":"8.1","number":"104370人评价"},
+    {"filmPic":"images/p485862147.jpg","name":"飞屋环游记(2009)","country":"制片:美国","star":"images/star4.5.jpg","mark":"8.9","number":"435157人评价"},
+    {"filmPic":"images/p1213742358.jpg","name":"功夫熊猫2(2011)","country":"制片:美国","star":"images/star4.jpg","mark":"8.0","number":"244922人评价"},
+    {"filmPic":"images/p827079407.jpg","name":"小美人鱼(1989)","country":"制片:美国","star":"images/star4.5.jpg","mark":"8.2","number":"35363人评价"},
+    {"filmPic":"images/p722758217.jpg","name":"狮子王(1994)","country":"制片: 美国","star":"images/star4.5.jpg","mark":"8.8","number":"240359人评价"},
+    {"filmPic":"images/p2166640945.jpg","name":"冰雪奇缘(2013)","country":"制片: 美国","star":"images/star4.5.jpg","mark":"8.3","number":"254723人评价"}
+  ]
+}

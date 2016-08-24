@@ -1,0 +1,22 @@
+{
+  "row1":[
+      {"filmPic":"images/p2366372816.jpg","name":"封神传奇","starPic":"images/star2.5.jpg","mark":"3.1"},
+      {"filmPic":"images/p2366057661.jpg","name":"绝地逃亡","starPic":"images/star3.jpg","mark":"5.7"},
+      {"filmPic":"images/p2367559705.jpg","name":"泰山归来：险战丛林 The Legend of Tarzan ","starPic":"images/star3.5.jpg","mark":"6.3"},
+  ],
+  "row2":[
+      {"filmPic":"images/p2364795527.jpg","name":"致青春·原来你还在这里","starPic":"images/star2.jpg","mark":"4.1"},
+      {"filmPic":"images/p2363294351.jpg","name":"天亮之前","starPic":"images/star3.jpg","mark":"5.7"},
+      {"filmPic":"images/p2360072346.jpg","name":"寒战Ⅱ","starPic":"images/star3.5.jpg","mark":"7.1"},
+  ],
+  "rpw3":[
+      {"filmPic":"images/p2361036748.jpg","name":"陆垚知马俐","starPic":"images/star3.jpg","mark":"5.4"},
+      {"filmPic":"images/p2361744534.jpg","name":"大鱼海棠","starPic":"images/star3.5.jpg","mark":"6.6"},
+      {"filmPic":"images/p2366570716.jpg","name":"路边野餐","starPic":"images/star4.jpg","mark":"7.8"},
+  ],
+  "row4":[
+      {"filmPic":"images/p2367455902.jpg","name":"六弄咖啡馆","starPic":"images/star3.jpg","mark":"5.7"},
+      {"filmPic":"images/p2366252748.jpg","name":"神秘世界历险记3","starPic":"images/star3.5.jpg","mark":"6.6"},
+      {"filmPic":"images/p2366428288.jpg","name":"哆啦A梦：新·大雄的日本诞生 ドラえもん 新・のび太の日本誕生 ","starPic":"images/star3.5.jpg","mark":"7.1"}
+  ]
+}

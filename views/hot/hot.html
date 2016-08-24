@@ -1,0 +1,88 @@
+<ion-view view-title="热门选区">
+    <ion-content class="hot">
+        <div class="classics item has-footer" style="padding:10px;" >
+            <h3>经典…</h3>
+            <ion-scroll zooming="true" direction="x">
+                <ul>
+                    <li ng-repeat="hotclassic in hotclassics">
+                        <div class="hotFilmPic"><img ng-src="{{hotclassic.hotFilmPic}}"></div>
+                        <p class="name">{{hotclassic.name}}</p>
+                        <p class="country">{{hotclassic.country}}</p>
+                        <div class="starPic"><img ng-src="{{hotclassic.star}}"></div>
+                        <p class="hotOther">{{hotclassic.mark}}<a href="javascript:;">{{hotclassic.number}}</a></p>
+                    </li>
+                </ul>
+            </ion-scroll>
+        </div>
+        <div class="classics item has-footer" style="padding:10px;">
+            <h3>爱情…</h3>
+            <ion-scroll zooming="true" direction="x">
+                <ul>
+                    <li ng-repeat="hotlove in hotloves">
+                        <div class="hotFilmPic"><img ng-src="{{hotlove.loveFilmPic}}"></div>
+                        <p class="name">{{hotlove.name}}</p>
+                        <p class="country">{{hotlove.country}}</p>
+                        <div class="starPic"><img ng-src="{{hotlove.star}}"></div>
+                        <p class="hotOther">{{hotlove.mark}}<a href="javascript:;">{{hotlove.number}}</a></p>
+                    </li>
+                </ul>
+            </ion-scroll>
+        </div>
+        <div class="classics item has-footer" style="padding:10px;">
+            <h3>文艺…</h3>
+            <ion-scroll zooming="true" direction="x">
+                <ul>
+                    <li ng-repeat="hotart in hotarts">
+                        <div class="hotFilmPic"><img ng-src="{{hotart.artFilmPic}}"></div>
+                        <p class="name">{{hotart.name}}</p>
+                        <p class="country">{{hotart.country}}</p>
+                        <div class="starPic"><img ng-src="{{hotart.star}}"></div>
+                        <p class="hotOther">{{hotart.mark}}<a href="javascript:;">{{hotart.number}}</a></p>
+                    </li>
+                </ul>
+            </ion-scroll>
+        </div>
+        <div class="classics item has-footer" style="padding:10px;">
+            <h3>冷门佳片…</h3>
+            <ion-scroll zooming="true" direction="x">
+                <ul>
+                    <li ng-repeat="hotcold in hotcolds">
+                        <div class="hotFilmPic"><img ng-src="{{hotcold.filmPic}}"></div>
+                        <p class="name">{{hotcold.name}}</p>
+                        <p class="country">{{hotcold.country}}</p>
+                        <div class="starPic"><img ng-src="{{hotcold.star}}"></div>
+                        <p class="hotOther">{{hotcold.mark}}<a href="javascript:;">{{hotcold.number}}</a></p>
+                    </li>
+                </ul>
+            </ion-scroll>
+        </div>
+        <div class="classics item has-footer" style="padding:10px;">
+            <h3>科幻…</h3>
+            <ion-scroll zooming="true" direction="x">
+                <ul>
+                    <li ng-repeat="hotscience in hotsciences">
+                        <div class="hotFilmPic"><img ng-src="{{hotscience.filmPic}}"></div>
+                        <p class="name">{{hotscience.name}}</p>
+                        <p class="country">{{hotscience.country}}</p>
+                        <div class="starPic"><img ng-src="{{hotscience.star}}"></div>
+                        <p class="hotOther">{{hotscience.mark}}<a href="javascript:;">{{hotscience.number}}</a></p>
+                    </li>
+                </ul>
+            </ion-scroll>
+        </div>
+        <div class="classics item has-footer" style="padding:10px;">
+            <h3>动画…</h3>
+            <ion-scroll zooming="true" direction="x">
+                <ul>
+                    <li ng-repeat="hotcartoon in hotcartoons">
+                        <div class="hotFilmPic"><img ng-src="{{hotcartoon.filmPic}}"></div>
+                        <p class="name">{{hotcartoon.name}}</p>
+                        <p class="country">{{hotcartoon.country}}</p>
+                        <div class="starPic"><img ng-src="{{hotcartoon.star}}"></div>
+                        <p class="hotOther">{{hotcartoon.mark}}<a href="javascript:;">{{hotcartoon.number}}</a></p>
+                    </li>
+                </ul>
+            </ion-scroll>
+        </div>
+    </ion-content>
+</ion-view>

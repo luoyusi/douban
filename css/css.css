@@ -1,0 +1,275 @@
+body,div,p,h1,h2,h3,h4,a,ol,ul,li,dl,dt,dd,input,img{ margin:0; padding:0;}
+li{ list-style:none; }
+i{ font-style:normal; }
+a{ text-decoration:none; color:#666; }
+img{ border:0;display: block;}
+input { border:0; outline:none;}
+body{ font-family:arial,"微软雅黑"; font-size:12px; color:#666;}
+.clear{ clear:both;}
+.fl{float:left;display: block;}
+.fr{float:right;display: block;}
+.clearfix:after{content:'';display: block;height:0px;clear:both;font-size:0;zoom:1;}
+
+/*.indexHead{background:rgba(0,0,0,0.7)}*/
+/*--------首页--------*/
+.homeTitle{margin-top:-3px;}
+.homeInput{padding:5px;}
+.indexLogo{line-height:18px;margin-right:10px;}
+.icon-search{color:#9e9e9e;margin-top:3px;font-size:16px;}
+.indexArea{font-size:14px;line-height:35px;margin-right:5px;}
+.indexDown{font-size:16px;line-height:35px;margin-right:15px;}
+.indexExpand{font-size:16px;line-height:35px;}
+.indexSlidePic{width:375px;height:313px;}
+.indexSlidePic img{width:100%;height:100%;}
+
+.indexHead{background:rgba(0,0,0,0.7)}
+.indexLogo{line-height:18px;margin-right:10px;font-size:12px;}
+.icon-search{color:#9e9e9e;margin-top:3px;font-size:16px;}
+.indexArea{font-size:14px;line-height:35px;margin-right:5px;}
+.indexDown{font-size:16px;line-height:35px;margin-right:15px;}
+.indexExpand{font-size:16px;line-height:35px;}
+.indexSlidePic{width:100%;height:100px;}
+.indexSlidePic img{width:100%;height:100%;}
+.piclunbo{}
+/*.indexContent{background:rgba(0,0,0,0.5);color:#fff;}*/
+.indexContent .pics{width:70px;height:70px;margin:0px auto;}
+.indexContent .pics img{width:100%;height:100%;border-radius: 50%;}
+.indexContent .colP{text-align: center;}
+/*.guess{margin:0px 15px;border-bottom: 1px solid gray;}*/
+.guess{margin:0px 15px;}
+.guess i{font-size:18px;margin-top:15px;float:left;}
+.guess .guessCont{float:left;margin-left:10px;margin-top:15px;}
+.list{}
+.list img{width:50px;height:70px;}
+
+/********--------------tabs--选项卡页面--------------------********/
+.tabsPage{font-size:8px;-webkit-transform: scale(0.67);}
+/********--------------setting--设置页面--------------------********/
+
+/********----------------mine--我的页面--------------------********/
+.mine{width:100%;}
+.mine .title{background:#00a398;color:#fff;}
+.mine .title .icons{float:right;height:50px;line-height:50px;padding:0 10px;}
+.mine .title .icons a i{font-size:20px;margin-left:15px;color:#fff;}
+.mine .title .member{margin-bottom:10px;padding:0 10px;}
+.mine .title .member img{width:50px;height:50px;border-radius: 50%;}
+.mine .title .member p{line-height:50px;margin-left:10px;font-size:14px;}
+.mine .title .member i{line-height:50px;font-size:20px;}
+.mine .title .mineNav{height:40px;background:rgba(0,0,0,0.1);line-height:16px;}
+.mine .title .mineNav p{float:left;width:33%;text-align:center;margin-top:4px;}
+.mine .title .mineNav p a{color:#fff;}
+.mine .title .mineNav p:first-child{border-right:1px solid white;}
+.mine .title .mineNav p:last-child{border-left:1px solid white;}
+.mine .title .gray{height:10px;background:#dfdddd;}
+.mine .content {height:40px;line-height:40px;border-bottom:1px solid #ccc;padding:0 10px;}
+.mine .content .top img{width:24px;height:24px;border-radius: 50%;margin-right:10px;margin-top:8px;}
+.mine .content .top span{display: inline-block;line-height:37px;}
+.mine .content .top span i{margin-left:5px;font-size:18px;display:inline-block;padding-top:1px;}
+
+
+    /*********-------tour 引导-页面-------**********/
+.tourPage .slidePic{width:360px;height:500px;margin:10px auto;}
+.tourPage .slidePic img{width:100%;height:100%;}
+.tourPage .joinIn{font-size:20px;width:80px;margin:0 auto;line-height:50px;}
+.tourPage .joinIn a{color:tomato;}
+
+/******--------首页得到侧边栏--------******/
+.sildePage{background:#f7f7f7;}
+.sildePage .list .item{padding:7px;}
+.sildePage .list .item:first-child{margin:10px 0px;}
+.sildePage .list .item:nth-child(5){margin-top:10px;}
+/*.sildePage .list .item:nth-child(5){margin-top:7px;}*/
+.sildePage .list .item:last-child{margin:10px 0px;}
+.sildePage .list .item i{font-size:20px;}
+.sildePage .list .item p{float:left;}
+/*.sildePage .list .item .liuliang{float:right;width:35px;height:17px;border-radius:10px;background:#9e9e9e;margin-top: 3px;position: relative;}*/
+/*.sildePage .list .item .liuliang span{position: absolute;left:0;top:0;width:17px;height:17px;border-radius:50%;;background:#fff;}*/
+.sildePage .list .item .track{height:20px;width:40px;}
+.sildePage .list .item .handle{height:18px;width:18px;margin-top:-1px;}
+
+/*********-------showing 热映中  页面-------**********/
+.showRow{flex-wrap: wrap;}
+.showPic{width:100px;height:139px;}
+.showPic img{width:100%;height:100%;}
+.showStarPic{float:left;margin-right:5px;margin-left:11px}
+.showPag{float:left;line-height:15px}
+.showChoice{background:#268dcd;color:#fff;width:90px;height:24px;line-height:24px;text-align: center;transform: translateX(3%)}
+
+/*********-------sort 分类 页面-------**********/
+.sortCont{margin-left:10px;}
+.sortTitle{line-height: 30px;font-size:16px;color:#333;font-weight:bold;border-bottom: 1px solid gray;}
+.sortContent h4{font-size:14px;line-height:30px;}
+.sortContent ul li{float:left;width:121px;}
+.sortContent ul li a{color:#37a}
+.sortContent ul li a:hover{background: #37a;color:#fff;}
+
+/*********-------rankList 排行榜  页面-------**********/
+/*********-------rankList 排行榜  页面-------**********/
+.rankList .rankListTitle{line-height:30px;margin-left:10px;font-size: 14px;}
+.rankList .list h3{line-height:25px;height:20px;}
+.rankList .rankListDesc{flex-wrap: wrap;line-height:20px;font-size:12px;}
+
+.rankListDesc{flex-wrap: wrap;font-size:12px;}
+.rankListStar{height:11px;float:left;margin-right:5px;font-size:12px;}
+.rankListStar img{height:100%;}
+.rankListMark{float:left;margin-right:5px;line-height:15px;}
+.rankListNumber{float:left;line-height:15px;font-size:12px;}
+
+/*********-------year 年度榜单  页面-------**********/
+/*********-------year 年度榜单  页面-------**********/
+.year{position: relative;}
+.year .uptop{position:absolute;right:20px;top:260px;width:20px;height:20px;background:rgba(0,0,0,0.5);border-radius: 50%;color:#fff;}
+.year .uptop i{font-size:18px;color:#fff;}
+.year .row{padding: 0px;}
+.year .col{padding: 0px;}
+.year{position: relative;}
+.yearTitle{position: fixed;left:0px;top:0px;z-index: 20;width:100%;line-height:30px;color:#fff;font-size:14px;font-weight: normal;}
+.yearTitle img{float:left;width:25px;height:14px;padding-left:10px;margin-right:5px;margin-top:8px;}
+.year .yearFirst{height:617px;position:relative;}
+.yearFirst img{width:100%;height:100%;}
+.year .yearFirst .yearCover{width:100%;height:617px;background-color:rgba(0,0,0,0.57);text-align: center;position: absolute;left:0px;top:0px;}
+.yearCover img{width:100%;height:100%;}
+.yearH2{color:#fff;font-size:20px;line-height:30px;padding-top:230px;}
+.yearH2 span{font-weight: bold;}
+.yearPag{color:#fff;padding:10px;line-height:20px;}
+.year ul li{height:340px;}
+.year ul li .yearPage{position:relative;color:#fff;}
+.year ul li .yearPage img{width:100%;height:340px;}
+.year ul li .yearPage .yearPageCover{position:absolute;left:0px;top:0px;width:100%;height:100%;}
+.year ul li .yearPage .yearPageCover .box{padding:8px;position:absolute;left:5%;top:38%;border:3px solid white;color:#fff;}
+/*****-------文字居右-------*****/
+.yearPageCover .no-line-right{text-align:right;font-weight:normal;line-height:20px;}
+.yearPageCover .underline-right{text-align:right;font-weight:normal;line-height:15px;text-decoration: underline;margin-bottom:8px;}
+.yearPageCover .boxH2{font-size:18px;line-height:20px;margin-top:0px;}
+.yearPageCover .boxH2 a{color:#fff;}
+.yearPageCover .boxH2 a:hover{color:orange;transition: all 1s;}
+.yearPageCover .boxImgLeft{height:11px;float:left;margin-bottom: 8px;}
+.yearPageCover .boxImgLeft .boxStarPic{height:11px;width:55px;float:left;display: block;margin-top:5px;margin-right:5px;}
+.yearPageCover .boxImgLeft .boxPage{float:left;line-height:22px;}
+/*****-------文字居左-------*****/
+.yearPageCover .no-line-left{text-align:left;font-weight:normal;line-height:20px;}
+.yearPageCover .underline-left{text-align:left;font-weight:normal;line-height:15px;text-decoration: underline;margin-bottom:8px;}
+.yearPageCover .boxH3{font-size:18px;line-height:20px;margin-top:0px;text-align:right;}
+.yearPageCover .boxH3 a{color:#fff;}
+.yearPageCover .boxH3 a:hover{color:orange;transition: all 1s;}
+.yearPageCover .boxImg{height:11px;text-align:right;width:165px;float:right;margin-bottom:10px;}
+.yearPageCover .boxImg .boxStarPic{height:11px;width:55px;float:left;display: block;margin-top:5px;margin-right:5px;text-align:right;}
+.yearPageCover .boxImg .boxPage{float:left;line-height:22px;text-align:right;width:105px;}
+.year ul li .yearPage .yearPageCover .yearPageDesc{position:absolute;left:0px;bottom:-1%;padding:10px;color:#fff;line-height:18px;text-align:center;}
+/*****-------心迷宫-------*****/
+.year ul li .yearPage .yearPageCover .boxHeart{padding:8px;position:absolute;right:6%;top:8%;border:3px solid white;color:#fff;}
+/*****-------年度台词---刺客聂隐娘-------*****/
+.year ul li .yearPage .yearPageCover .taici{font-size:14px;line-height:30px;text-decoration:underline;position: absolute;bottom:10%;width:100%;text-align:center;}
+.year ul li .yearPage .yearPageCover .taiciPic{position: absolute;top:7%;left:5%;}
+.year ul li .yearPage .yearPageCover .taiciPic a:hover{color:orange;transition: all 1s;}
+.year ul li .yearPage .yearPageCover .taiciPic img{width:70px;height:100px;display:block;float:left;margin-right:10px;}
+.year ul li .yearPage .yearPageCover .taiciPic p{color:#fff;float:left;line-height:20px;}
+.year ul li .yearPage .yearPageCover .taiciDesc{color:#fff;font-size:20px;line-height:30px;position: absolute;bottom:2%;width:100%;text-align:center;}
+/*****-------西游记之大圣归来-------*****/
+.year ul li .yearPage .yearPageCover .boxDasheng{padding:8px;position:absolute;right:6%;top:30%;border:3px solid white;color:#fff;}
+/*****-------疯狂的麦克斯4-------*****/
+.year ul li .yearPage .yearPageCover .boxMad{padding:8px;position:absolute;right:10%;top:20%;border:3px solid white;color:#fff;}
+/*****-------西游记之三打白骨精-------*****/
+.year ul li .yearPage .yearPageCover .boxXiyouji{padding:8px;position:absolute;left:4%;top:15%;border:3px solid white;color:#fff;}
+/*****-------年度台词---疯狂的麦克斯4-------*****/
+.year ul li .yearPage .yearPageCover .taiciB{font-size:14px;line-height:25px;text-decoration:underline;position: absolute;bottom:22%;width:100%;text-align:center;}
+.year ul li .yearPage .yearPageCover .taiciDescB{color:#fff;font-size:20px;line-height:22px;position: absolute;bottom:8%;width:100%;text-align:center;}
+.year ul li .yearPage .yearPageCover .taiciDesc2{color:#fff;font-size:16px;line-height:20px;position: absolute;bottom:1%;width:100%;text-align:center;}
+/*****-------贝利叶一家-------*****/
+.year ul li .yearPage .yearPageCover .boxBeiyeli{padding:8px;position:absolute;right:1%;top:5%;border:3px solid white;color:#fff;}
+/*****-------思悼-------*****/
+.year ul li .yearPage .yearPageCover .boxSidao{padding:8px;position:absolute;right:10%;top:33%;border:3px solid white;color:#fff;}
+/*****-------小森林-------*****/
+.year ul li .yearPage .yearPageCover .boxXiaosenlin{padding:8px;position:absolute;right:2%;top:15%;border:3px solid white;color:#fff;}
+/*****-------王牌特工：特工学院-------*****/
+.year ul li .yearPage .yearPageCover .boxKing{padding:8px;position:absolute;left:7%;top:10%;border:3px solid white;color:#fff;}
+/*****-------年度台词---卡罗尔-------*****/
+.year ul li .yearPage .yearPageCover .taiciC{font-size:14px;line-height:25px;text-decoration:underline;position: absolute;bottom:15%;width:100%;text-align:center;}
+/*****----------头脑特工队-------*****/
+.year ul li .yearPage .yearPageCover .boxTounao{padding:8px;position:absolute;right:11%;top:20%;border:3px solid white;color:#fff;}
+/*****----------地球之盐-------*****/
+.year ul li .yearPage .yearPageCover .boxSalt{padding:8px;position:absolute;right:25%;top:22%;border:3px solid white;color:#fff;}
+/*****----------地球之盐-------*****/
+.year ul li .yearPage .yearPageCover .boxWater{padding:8px;position:absolute;right:25%;top:3%;border:3px solid white;color:#fff;}
+/*****----------卡罗尔-------*****/
+.year ul li .yearPage .yearPageCover .boxKaluoer{padding:8px;position:absolute;right:38%;top:37%;border:3px solid white;color:#fff;}
+/*****------年度台词----小王子-------*****/
+.year ul li .yearPage .yearPageCover .taiciD{font-size:14px;line-height:25px;text-decoration:underline;position: absolute;bottom:28%;width:100%;text-align:center;}
+.year ul li .yearPage .yearPageCover .taiciDescD{color:#fff;font-size:20px;line-height:22px;position: absolute;bottom:14%;width:100%;text-align:center;}
+/*****----------风骚律师-------*****/
+.year ul li .yearPage .yearPageCover .boxSaul{padding:8px;position:absolute;right:41%;top:38%;border:3px solid white;color:#fff;}
+/*****----------权力的游戏 -------*****/
+.year ul li .yearPage .yearPageCover .boxQuanli{padding:8px;position:absolute;right:7%;top:25%;border:3px solid white;color:#fff;}
+/*****----------广告狂人 -------*****/
+.year ul li .yearPage .yearPageCover .boxMadMan{padding:8px;position:absolute;right:1%;top:25%;border:3px solid white;color:#fff;}
+/*****-------年度台词---超感猎杀 -------*****/
+.year ul li .yearPage .yearPageCover .taiciE{font-size:14px;line-height:25px;text-decoration:underline;position: absolute;bottom:38%;width:100%;text-align:center;}
+.year ul li .yearPage .yearPageCover .taiciDescE{color:#fff;font-size:20px;line-height:22px;position: absolute;bottom:18%;width:100%;text-align:center;}
+/*****----------琅琊榜 -------*****/
+.year ul li .yearPage .yearPageCover .boxLangyabang{padding:8px;position:absolute;right:25%;top:37%;border:3px solid white;color:#fff;}
+/*****----------约会 -------*****/
+.year ul li .yearPage .yearPageCover .boxYuehui{padding:8px;position:absolute;right:10%;top:37%;border:3px solid white;color:#fff;}
+/*****----------李·佩斯 -------*****/
+.year ul li .yearPage .yearPageCover .boxLee{padding:8px;position:absolute;right:7%;top:22%;border:3px solid white;color:#fff;}
+/*****----------侯孝贤 -------*****/
+.year ul li .yearPage .yearPageCover .boxHouxiaoxian{padding:8px;position:absolute;left:10%;top:30%;border:3px solid white;color:#fff;}
+/*****----------重返20岁 -------*****/
+.year ul li .yearPage .yearPageCover .name-left{float:left;line-height:15px;font-size:14px;margin-right:5px;width:80px;border-right:1px solid white;}
+.year ul li .yearPage .yearPageCover .yue-left{float:left;line-height:30px;font-size:24px;}
+.year ul li .yearPage .yearPageCover .boxBack{padding:8px;position:absolute;left:5%;top:44%;border:3px solid white;color:#fff;}
+/*****----------狼图腾 -------*****/
+.year ul li .yearPage .yearPageCover .boxFox{padding:8px;position:absolute;left:5%;top:30%;border:3px solid white;color:#fff;}
+/*****----------王牌特工：特工学院 -------*****/
+.year ul li .yearPage .yearPageCover .boxKing2{padding:8px;position:absolute;left:25%;top:35%;border:3px solid white;color:#fff;}
+/*****----------速度与激情7 -------*****/
+.year ul li .yearPage .yearPageCover .boxSpeed{padding:8px;position:absolute;left:4%;top:40%;border:3px solid white;color:#fff;}
+/*****----------侏罗纪世界 -------*****/
+.year ul li .yearPage .yearPageCover .boxZhuluoji{padding:8px;position:absolute;right:7%;top:30%;border:3px solid white;color:#fff;}
+/*****----------西游记之大圣归来 -------*****/
+.year ul li .yearPage .yearPageCover .boxDasheng2{padding:8px;position:absolute;left:7%;top:30%;border:3px solid white;color:#fff;}
+/*****----------滚蛋吧！肿瘤君 -------*****/
+.year ul li .yearPage .yearPageCover .boxFangunba{padding:8px;position:absolute;right:7%;top:40%;border:3px solid white;color:#fff;}
+/*****----------夏洛特烦恼-------*****/
+.year ul li .yearPage .yearPageCover .boxXialuote{padding:8px;position:absolute;right:5%;top:8%;border:3px solid white;color:#fff;}
+/*****----------我的少女时代-------*****/
+.year ul li .yearPage .yearPageCover .boxMine{padding:8px;position:absolute;left:5%;top:40%;border:3px solid white;color:#fff;}
+
+/*****-----------------------comment页面   影片页面----------------------*****/
+/*****---------------------------comment页面   影片页面---------------------*****/
+.comment{padding:7px;}
+/*.comment ul li{margin-top:10px;}*/
+.comment .commentSort{line-height:30px;font-size:14px;text-align:right;margin-bottom:7px;}
+.comment .commentSort a{padding:3px 5px;border-radius:3px}
+.comment .commentSort a:hover{color:#fff;background:#69c;}
+.ac{color:#fff;background:#69c;}
+.comment ul li .item{padding:5px;}
+.comment ul li .commentFilmPic{float:left;width:65px;height:100px;margin-right:15px;}
+.comment ul li .commentFilmPic img{display: block;width:100%;height:100%;}
+.comment ul li .commentTitle{width:80%;line-height:25px;height:25px;background:#fffdee;margin-left:80px;}
+.comment ul li .commentTitle a{color:#69c;font-size:12px;}
+.comment ul li .commentTitle a:hover{color:#fff;background:#69c;}
+.comment ul li .commentTitle .commentCheck{float:right;}
+.peopleName{float:left;font-size:12px;}
+.peopleName a{padding:2px;border-radius:3px;line-height:15px;}
+.peopleName a:hover{color:#fff;background:#666;}
+.commentPic{float:left;}
+.commentPic img{display:block;padding-top:4px;margin-right:5px;height:15px;}
+.commentCheck{float:left;margin-left:10px;padding:0px 5px;background:#69c;color:#fff;border-radius:5px;}
+.commentCont p{text-indent:2em;padding:2px 0px;font-size:14px;width:75%;float:left;font-size:12px;}
+.commentThink{margin-left:80px;float:left;margin-right:5px;font-size:12px;}
+.commentThink p{font-size:12px;}
+.commentClick{float:left;font-size:12px;}
+.commentClick a{margin-right:10px;}
+.commentClick a span{margin-left:5px;}
+
+/*****-----------------------hot页面   热门选区页面----------------------*****/
+/*****---------------------------hot页面   热门选区页面---------------------*****/
+.hot{margin-top:10px;}
+.hot .classics h3{line-height:25px;margin-left: 5px;}
+.hot .classics ul{width:1100px;}
+.hot .classics ul li{float:left;text-align:center;padding:0px 3px;}
+.hot .classics ul li p{font-size:12px;}
+.hot .classics ul li .starPic{width:55px;height:11px;margin:0px auto;}
+.hotFilmPic{}
+.hotFilmPic img{width:100px;height:147px;margin:0px auto;display: block;}
+.hot .classics ul li .hotOther{margin-bottom:10px;}

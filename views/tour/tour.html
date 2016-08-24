@@ -1,0 +1,24 @@
+<ion-view view-title="欢迎进入豆瓣电影" class="tourPage">
+    <ion-nav-buttons side="right">
+        <!--<a class="button button-clear" ui-sref="tabs.home" ng-if="isShow">进入</a>-->
+    </ion-nav-buttons>
+    <ion-content>
+        <ion-slide-box auto-play="true" slide-interval="2000" does-continue="true" on-slide-changed="onSlideChanged()">
+            <ion-slide>
+                <div class="slidePic"><img src="images/p497010372.jpg"></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="slidePic"><img src="images/p2306966020.jpg"></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="slidePic"><img src="images/p2204443989.jpg"></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="slidePic">
+                    <img src="images/file-1470307393.jpg">
+                </div>
+            </ion-slide>
+        </ion-slide-box>
+        <div class="joinIn"><a ui-sref="tabs.home" ng-if="isShow">点击进入</a></div>
+    </ion-content>
+</ion-view>

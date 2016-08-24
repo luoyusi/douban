@@ -1,0 +1,18 @@
+<ion-view>
+    <ion-nav-title title="">
+        正在热映的影片
+        <!--<input type="text" placeholder="searching"/>-->
+    </ion-nav-title>
+    <ion-content>
+        <div class="row showRow">
+            <div class="col col-33" ng-repeat="showingFilm in showingFilms">
+                <div class="showPic"><a href="#"><img ng-src="{{showingFilm.filmPic}}"></a></div>
+                <p style="text-align: center;transform: translateX(-5%)">{{showingFilm.name}}</p>
+                <div class="showStarPic"><a href="#"><img ng-src="{{showingFilm.starPic}}"></a></div>
+                <p class="showPag">{{showingFilm.mark}}</p>
+                <div class="clear"></div>
+                <a href="http://movie.douban.com"><div class="showChoice">选座购票</div></a>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

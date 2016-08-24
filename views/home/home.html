@@ -1,0 +1,90 @@
+<ion-view class="piclunbo">
+    <ion-nav-title class="homeTitle">
+        <div class="item-input-inset homeInput" style="padding:0px;">
+            <div class="button button-clear indexLogo">
+                豆瓣
+            </div>
+            <div class="item-input-wrapper">
+                <i class="icon ion-search icon-search"></i>
+                <input type="text" placeholder="searching..."/>
+            </div>
+            <div class="button button-clear">成都<i class="icon ion ion-ios-location-outline" style="font-size:10px;margin-left:3px;"></i></div>
+        </div>
+    </ion-nav-title>
+
+<!-------------------------内容content------------------------>
+    <!-------图片轮播------------>
+    <ion-content class="homeContents">
+        <ion-refresher pulling-text="下拉刷新中……" pulling-icon="icon ion-ion-load-a energized" on-refresh="refresh()" class="energized"></ion-refresher>
+        <ion-slide-box auto-play="true" slide-interval="1500" does-continue="true">
+
+            <ion-slide>
+                <div class="indexSlidePic"><a href="#"><img src="images/zhoumofangyingshi.jpg"></a> </div>
+            </ion-slide>
+            <ion-slide>
+                <div class="indexSlidePic"><a href="#"><img src="images/wanwanmeixiangdao.jpg"></a></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="indexSlidePic"><a href="#"><img src="images/a813fac3c00481a.jpg"></a></div>
+            </ion-slide>
+        </ion-slide-box>
+        <!------分类导航内容-------->
+        <div class="indexContent">
+            <div class="row">
+                <div class="col">
+                    <div class="pics"><a ui-sref="tabs.showing"><img src="images/20141124024222601.jpg.png"></a></div>
+                    <p class="colP">正在热映</p>
+                </div>
+                <div class="col">
+                    <div class="pics"><a ui-sref="tabs.rankList"><img src="images/30272043757709680.png"></a></div>
+                    <p class="colP">新片榜</p>
+                </div>
+                <div class="col">
+                    <div class="pics"><a ui-sref="tabs.sort"><img src="images/www.ing5u.com.png"></a></div>
+                    <p class="colP">分类</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="pics"><a ui-sref="tabs.hot"><img src="images/20090112184320395.jpg"></a></div>
+                    <p class="colP">热门选区</p>
+                </div>
+                <div class="col">
+                    <div class="pics"><a ui-sref="tabs.year"><img src="images/1_140207135351_1.jpg"></a></div>
+                    <p class="colP">2015年度榜单</p>
+                </div>
+                <div class="col">
+                    <div class="pics"><a ui-sref="tabs.comment"><img src="images/200810212302247_2.jpg"></a></div>
+                    <p class="colP">影评</p>
+                </div>
+            </div>
+            <!------猜你喜欢的内容-------->
+            <div class="guess">
+                <i class="icon ion-heart assertive"></i><p class="guessCont">猜你喜欢</p>
+            </div>
+            <div class="clear"></div>
+            <div class="list">
+                <a class="item item-thumbnail-left" href="#" ng-repeat="film in films">
+                    <img ng-src="{{film.filmPic}}">
+                    <h3>{{film.name}}</h3>
+                    <p style="font-size:12px;">{{film.type}}</p>
+                    <p style="float:left;font-size:12px;margin-right:5px">{{film.mark}}</p>
+                    <p><img ng-src="{{film.starPic}}" style="height:11px;margin-top:4px"></p>
+                    <div class="clear"></div>
+                    <p style="font-size:12px;">{{film.info}}</p>
+                </a>
+
+                <!--<a class="item item-thumbnail-left" href="#">-->
+                    <!--<img src="images/p2366057662.jpg">-->
+                    <!--<h3>绝地逃亡 Skiptrace(2016)</h3>-->
+                    <!--<p style="float:left;font-size:12px;margin-right:5px">评分：5.7</p>-->
+                    <!--<p><img src="images/star3.jpg" style="height:11px;margin-top:4px"></p>-->
+                    <!--<div class="clear"></div>-->
+                    <!--<p style="font-size:12px;">简介:香港探员陈港生跟踪黑道老大维克多·王<br/>　　 长达十数年，为搜集他犯罪证据而被卷入一场“计中计”中 </p>-->
+                <!--</a>-->
+                <ion-infinite-scroll on-infinite="loadMore()"></ion-infinite-scroll>
+            </div>
+        </div>
+        <!--<div class="toTop">Top</div>-->
+    </ion-content>
+</ion-view>
